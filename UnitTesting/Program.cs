@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UnitTesting
 {
@@ -10,6 +6,7 @@ namespace UnitTesting
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Add two intergers: 1, 2. " + "Output: "+ MathTool.Add(1,2));
         }
     }
 }
