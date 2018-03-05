@@ -138,5 +138,19 @@ namespace UnitTesting.Tests
             // Assert
             Assert.AreEqual(false, result1);
         }
+
+        [TestMethod()]
+        public void IsLargeThanAMillionTestEqual()
+        {
+            // Arrange
+            int num1 = 1000000;
+            bool result1;
+
+            // Act
+            result1 = MathTool.IsLargeThanAMillion(num1);
+
+            // Assert
+            Assert.AreEqual(false, result1);
+        }
     }
 }
