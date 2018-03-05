@@ -19,7 +19,7 @@
         /// <returns></returns>
         public static bool IsLargeThanAMillion(int a)
         {
-            if (a >= 1000000)
+            if (a > 1000000)
                 return true;
             else
                 return false;
