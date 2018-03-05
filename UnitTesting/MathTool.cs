@@ -9,7 +9,7 @@
 
         public static bool IsOdd(int a)
         {
-            return a % 2 == 1;
+            return (a & 1) != 0;
         }
     }
 }
